@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="RecursosHumanos.exe"/>
+    <OBJFILES value="RecursosHumanos.obj GUI\uFormPrncipal.obj Units\uClases.obj 
+      GUI\uFormRegistroEmp.obj GUI\uFormAltasMovimientos.obj 
+      GUI\uFormEstadoPlantilla.obj Units\EstructuraListas.obj 
+      GUI\uFondoSalario.obj GUI\uFormAcercaDe.obj GUI\uFormConfigurar.obj 
+      Units\UFile.obj GUI\uFormPlazasMenosOcupadas.obj 
+      GUI\uFormListadoNomina.obj GUI\FormBajasModificaciones.obj 
+      GUI\uFormIncidencias.obj Units\uGlobal.obj GUI\uFormModificarRegistros.obj 
+      GUI\uFormEliminarRegistros.obj Units\uDBF.obj GUI\uFormVerTrabajadores.obj 
+      GUI\uFormVerDepartamentos.obj GUI\uFormVerCargos.obj 
+      GUI\uFormVerEmpresa.obj GUI\uFormListadoJefesDpto.obj"/>
+    <RESFILES value="RecursosHumanos.res XP\WindowsXP.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) GUI\uFormPrncipal.dfm GUI\uFormRegistroEmp.dfm 
+      GUI\uFormAltasMovimientos.dfm GUI\uFormEstadoPlantilla.dfm 
+      GUI\uFondoSalario.dfm GUI\uFormAcercaDe.dfm GUI\uFormConfigurar.dfm 
+      GUI\uFormPlazasMenosOcupadas.dfm GUI\uFormListadoNomina.dfm 
+      GUI\FormBajasModificaciones.dfm GUI\uFormIncidencias.dfm 
+      GUI\uFormModificarRegistros.dfm GUI\uFormEliminarRegistros.dfm 
+      GUI\uFormVerTrabajadores.dfm GUI\uFormVerDepartamentos.dfm 
+      GUI\uFormVerCargos.dfm GUI\uFormVerEmpresa.dfm GUI\uFormListadoJefesDpto.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbsmp.lib vclx.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi vcldb.bpi vclx.bpi bdertl.bpi vcldbx.bpi 
+      ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi teedb.bpi 
+      tee.bpi dss.bpi teeqr.bpi visualclx.bpi dsnapcrba.bpi dsnapcon.bpi 
+      bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi 
+      inetdb.bpi nmfast.bpi webdsnap.bpi bcbie.bpi websnap.bpi soaprtl.bpi 
+      dclocx.bpi dbexpress.bpi dbxcds.bpi indy.bpi bcb2kaxserver.bpi adortl.bpi 
+      visualdbclx.bpi"/>
+    <PATHCPP value=".;GUI;Units;GUI;GUI;GUI;Units;GUI;GUI;GUI;Units;GUI;GUI;GUI;GUI;Units;GUI;GUI;Units;GUI;GUI;GUI;GUI;GUI"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="RecursosHumanos.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;Units\DataStruct;Units;GUI;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;&quot;C:\Documents and Settings\Administrador\Mis documentos\J.Manuel\Material de Estudio\Programacion\Mis Proyectos\DptoRecursosHumanos\DptoRecHuman_v1.1\GUI&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;Units\DataStruct;Units;GUI;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;&quot;C:\Documents and Settings\Administrador\Mis documentos\J.Manuel\Material de Estudio\Programacion\Mis Proyectos\DptoRecursosHumanos\DptoRecHuman_v1.1\GUI&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; -IUnits\DataStruct -IUnits 
+      -IGUI -I&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot; 
+      -I&quot;C:\Documents and Settings\Administrador\Mis documentos\J.Manuel\Material de Estudio\Programacion\Mis Proyectos\DptoRecursosHumanos\DptoRecHuman_v1.1\GUI&quot; 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="RecursosHumanos.res" FORMNAME="" UNITNAME="RecursosHumanos.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RecursosHumanos.cpp" FORMNAME="" UNITNAME="RecursosHumanos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormPrncipal.cpp" FORMNAME="FormPrincipal" UNITNAME="uFormPrncipal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\uClases.cpp" FORMNAME="" UNITNAME="uClases" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="XP\WindowsXP.res" FORMNAME="" UNITNAME="WindowsXP.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormRegistroEmp.cpp" FORMNAME="FormRegEmpresa" UNITNAME="uFormRegistroEmp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormAltasMovimientos.cpp" FORMNAME="FormAltasYMov" UNITNAME="uFormAltasMovimientos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormEstadoPlantilla.cpp" FORMNAME="FormEstadoPlantilla" UNITNAME="uFormEstadoPlantilla" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\EstructuraListas.cpp" FORMNAME="" UNITNAME="EstructuraListas" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFondoSalario.cpp" FORMNAME="FormFondoSalario" UNITNAME="uFondoSalario" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormAcercaDe.cpp" FORMNAME="FormAcercaDe" UNITNAME="uFormAcercaDe" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormConfigurar.cpp" FORMNAME="FormConfigurar" UNITNAME="uFormConfigurar" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\UFile.cpp" FORMNAME="" UNITNAME="UFile" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormPlazasMenosOcupadas.cpp" FORMNAME="FormPlazasMenosCubiertas" UNITNAME="uFormPlazasMenosOcupadas" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormListadoNomina.cpp" FORMNAME="FormListadoNomina" UNITNAME="uFormListadoNomina" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\FormBajasModificaciones.cpp" FORMNAME="FormBajasModific" UNITNAME="FormBajasModificaciones" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormIncidencias.cpp" FORMNAME="FormIncidencias" UNITNAME="uFormIncidencias" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\uGlobal.cpp" FORMNAME="" UNITNAME="uGlobal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormModificarRegistros.cpp" FORMNAME="FormModificarRegistros" UNITNAME="uFormModificarRegistros" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormEliminarRegistros.cpp" FORMNAME="FormEliminarRegistros" UNITNAME="uFormEliminarRegistros" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\uDBF.cpp" FORMNAME="" UNITNAME="uDBF" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormVerTrabajadores.cpp" FORMNAME="FormVerTrabajadores" UNITNAME="uFormVerTrabajadores" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormVerDepartamentos.cpp" FORMNAME="FormVerDepartamentos" UNITNAME="uFormVerDepartamentos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormVerCargos.cpp" FORMNAME="FormVerCargos" UNITNAME="uFormVerCargos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormVerEmpresa.cpp" FORMNAME="FormVerEmpresa" UNITNAME="uFormVerEmpresa" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GUI\uFormListadoJefesDpto.cpp" FORMNAME="FormListadoJefesDpto" UNITNAME="uFormListadoJefesDpto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3082
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\progra~1\borland\cbuild~1\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=2
+Item0=C:\Program Files\Borland\CBuilder6\Projects;Units\DataStruct;Units;GUI;C:\Archivos de programa\Borland\CBuilder6\Projects;C:\Documents and Settings\Administrador\Mis documentos\J.Manuel\Material de Estudio\Programacion\Mis Proyectos\DptoRecursosHumanos\DptoRecHuman_v1.1\GUI;$(BCB)\include;$(BCB)\include\vcl
+Item1=Units\DataStruct;Units;GUI;C:\Archivos de programa\Borland\CBuilder6\Projects;C:\Documents and Settings\Administrador\Mis documentos\J.Manuel\Material de Estudio\Programacion\Mis Proyectos\DptoRecursosHumanos\DptoRecHuman_v1.1\GUI;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=C:\Program Files\Borland\CBuilder6\Projects;Units\DataStruct;Units;GUI;C:\Archivos de programa\Borland\CBuilder6\Projects;C:\Documents and Settings\Administrador\Mis documentos\J.Manuel\Material de Estudio\Programacion\Mis Proyectos\DptoRecursosHumanos\DptoRecHuman_v1.1\GUI;$(BCB)\lib\obj;$(BCB)\lib
+Item1=Units\DataStruct;Units;GUI;C:\Archivos de programa\Borland\CBuilder6\Projects;C:\Documents and Settings\Administrador\Mis documentos\J.Manuel\Material de Estudio\Programacion\Mis Proyectos\DptoRecursosHumanos\DptoRecHuman_v1.1\GUI;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
